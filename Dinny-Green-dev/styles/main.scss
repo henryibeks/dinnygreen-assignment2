@@ -1,0 +1,379 @@
+@import "utility";
+
+header {
+    nav {
+        .top-nav {
+            margin-top: 20px;
+            
+
+            .contact-nav {
+                color: $nav_col;
+            }
+
+            .phone {
+                padding-right: 70px;
+            }
+
+            .email_nav a {
+                color: $link;
+                text-decoration: none !important;
+            }
+        }
+
+        a:hover {
+            color: $primary_col !important;
+            font-size: 16.3px !important;
+        }
+    }
+
+
+    .btm-nav {
+        background-color: $nav_col;
+        margin-top: 60px;
+        display: flex !important;
+        justify-content: space-between;
+
+        img {
+            width: 80px;
+            height: auto;
+            flex: 0.2 !important;
+        }
+
+        .lists {
+            margin-right: 100px;
+        }
+    }
+
+    .button {
+        background-color: #ADD9BD !important;
+        margin-left: 15px;
+        padding: 10px 25px !important;
+    }
+
+    .button:hover {
+        background-color: $textcolor !important;
+        color: #fff;
+    }
+
+    .text-success {
+        color: $textcolor !important;
+    }
+
+    .text-col {
+        color: $pcolor;
+    }
+
+    .head-area {
+        background-image: url('../images/thisisengineering-raeng-TXxiFuQLBKQ-unsplashfgjkl\ 1.png');
+        background-position: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 1347.5px;
+        height: 568px;
+        left: 0px;
+        margin-top: 8px;
+    
+
+        .header {
+            padding-top: 170px;
+        }
+
+        .head-link {
+            color: #8FBF26 !important;
+            text-decoration: none;
+        }
+
+        .null {
+            background-image: url('../images/Rectangle\ 11.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            // width: 1440px;
+            height: 77px;
+            left: 0px;
+            top: 500px;
+            backdrop-filter: blur(33px);
+        }
+    }
+}
+
+#about {
+    display: flex;
+    margin-top: 110px;
+    margin-bottom: 50px;
+
+    .container {
+        .rome {
+            margin-top: 110px !important;
+
+            .rome-container {
+
+                .girl {
+
+                    img {
+                        width: 20px;
+                        height: auto;
+                    }
+                }
+
+                h2 {
+                    font-weight: 900 !important;
+
+                    span {
+                        font-size: 20px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.textbody {
+    padding: 0 90px;
+}
+
+.pics {
+    padding-left: 20px !important;
+    position: relative;
+    left: 48px;
+    top: 80px;
+}
+
+.textt {
+    padding: 0 30px;
+}
+
+#feature {
+    background-image: url('../images/Frame\ 4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#services {
+    .service {
+        margin-top: 150px;
+        margin-left: 150px;
+    }
+
+    img {
+        position: relative;
+        width: 600px;
+        height: 500px;
+        top: 55px;
+        object-fit: cover;
+        border-bottom-left-radius: 50px;
+    }
+}
+
+#courses {
+    margin-top: 70px;
+    background-color: #F9FCFE;
+
+    .park,
+    .icon {
+        padding: 50px;
+    }
+
+    .park,
+    .central,
+    .badder {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .icon {
+        position: relative;
+        left: 0px;
+    }
+
+    .card {
+        img {
+            width: 200px;
+            height: auto;
+            object-fit: cover;
+            align-items: center;
+        }
+    }
+
+    .cards {
+        font-size: 12px;
+    }
+
+    .eclipse>img:hover {
+        opacity: 0.6;
+        transition: 0.2s ease-in;
+        cursor: pointer;
+    }
+
+    .bt {
+        border-top: 1px solid $textcolor !important;
+        border-bottom: 3px solid $textcolor !important;
+        color: $textcolor !important;
+        font-weight: bold;
+    }
+
+    .bt:hover {
+        border-top: 1px solid $pcolor !important;
+        border-bottom: 3px solid $pcolor !important;
+        color: $pcolor !important;
+        font-weight: bold;
+    }
+
+    .con {
+        width: 17%;
+        margin: auto;
+        margin-top: 33px;
+    }
+}
+
+#blog {
+    margin-bottom: 30px;
+
+    .words {
+        text-align: center;
+    }
+}
+
+#testimonial {
+    background-image: url('../images/rectangle 82.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    object-fit: cover;
+
+    .success {
+        padding-top: 50px !important;
+    }
+
+    .conti {
+        width: 60%;
+        padding-top: 20px;
+    }
+}
+
+#instructors {
+    background-color: #E5E5E5;
+
+    .fin {
+        width: 60%;
+        padding: 90px 20px 0 0;
+
+    }
+
+    .pix1 {
+        padding: 30px;
+        background-image: url('../images/mask group (7).png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 60vh;
+        object-fit: contain;
+        margin-right: 30px;
+        border-radius: 5px;
+        padding-top: 250px;
+        box-shadow: -0px -40px 80px 0px $textcolor inset;
+    }
+
+    .pix2 {
+        padding: 30px;
+        background-image: url('../images/mask group (8).png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 60vh;
+        object-fit: contain;
+        margin-right: 30px;
+        border-radius: 5px;
+        padding-top: 220px;
+        box-shadow: -0px -40px 80px 0px $textcolor inset;
+    }
+
+    .pix3 {
+        padding: 30px;
+        background-image: url('../images/rectangle 89.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 60vh;
+        object-fit: contain;
+        border-radius: 5px;
+        padding-top: 220px;
+        box-shadow: -0px -40px 80px 0px $textcolor inset;
+    }
+
+    .con {
+        width: 17%;
+        margin: auto;
+        margin-top: 33px;
+    }
+}
+
+#contact {
+    margin-top: 80px;
+
+    .contact {
+        margin-bottom: 30px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 150px;
+        resize: vertical;
+    }
+
+    .con {
+        @extend .con;
+        margin-bottom: 50px;
+    }
+}
+
+#footer {
+    background-color: $nav_col;
+    height: 82vh;
+
+    .foot {
+        padding-top: 65px;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 100px;
+        margin-bottom: 10px;
+
+        .badge {
+            padding-bottom: 20px;
+        }
+
+        h4 {
+            padding-bottom: 15px;
+        }
+
+        h4 span {
+            border-bottom: 2px solid #fff;
+            padding-bottom: 5px;
+        }
+
+        .first,
+        .second,
+        .third,
+        .fourth {
+            width: 90%;
+            padding-right: 60px;
+        }
+
+        .second,
+        .third,
+        .fourth {
+            padding-top: 40px;
+        }
+    }
+
+    .copy i {
+        color: pink !important;
+    }
+}

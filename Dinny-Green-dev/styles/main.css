@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.bby{
+  width: 100%
+}
+
+.top-a,
+.top-nav {
+  color: #003412 !important;
+  font-size: 14px !important;
+  justify-items: auto;
+}
+
+#btmnav{
+  margin-top: 3px;
+}
+
+.email_nav{
+  margin-top: 6px;
+  margin-bottom: -18px;
+}
+
+
+.btnn {
+  background: #038C33 !important;
+  padding: 10px 25px !important;
+  color: #fff;
+}
+
+.btnn:hover {
+  color: #fff !important;
+  background-color: #1F6036 !important;
+}
+
+.bad {
+  color: #038C33 !important;
+}
+
+.badder {
+  color: #1F6036 !important;
+}
+
+.buts {
+  background-color: #ADD9BD !important;
+  margin-left: 10px;
+  padding: 5px 10px !important;
+  color: #038C33;
+}
+
+header nav .top-nav {
+  margin-top: 20px;
+  
+}
+header nav .top-nav .contact-nav {
+  color: #003412;
+}
+header nav .top-nav .phone {
+  padding-right: 70px;
+}
+header nav .top-nav .email_nav a {
+  color: #010202;
+  text-decoration: none !important;
+}
+header nav a:hover {
+  color: #00923F !important;
+  font-size: 16.3px !important;
+}
+header .btm-nav {
+  background-color: #003412;
+  margin-top: 60px;
+  display: flex !important;
+  justify-content: space-between;
+}
+header .btm-nav img {
+  width: 80px;
+  height: auto;
+  flex: 0.2 !important;
+}
+header .btm-nav .lists {
+  margin-right: 100px;
+}
+header .button {
+  background-color: #ADD9BD !important;
+  margin-left: 15px;
+  padding: 10px 25px !important;
+}
+header .button:hover {
+  background-color: #038C33 !important;
+  color: #fff;
+}
+header .text-success {
+  color: #038C33 !important;
+}
+header .text-col {
+  color: #1F6036;
+}
+header .head-area {
+  background-image: url("../images/thisisengineering-raeng-TXxiFuQLBKQ-unsplashfgjkl 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 1260.5px;
+  height: 568px;
+  left: 0px;
+  margin-top: 1px;
+}
+header .head-area .header {
+  padding-top: 170px;
+}
+header .head-area .head-link {
+  color: #8FBF26 !important;
+  text-decoration: none;
+}
+header .head-area .null {
+  background-image: url("../images/Rectangle 11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 77px;
+  left: 0px;
+  top: 500px;
+  -webkit-backdrop-filter: blur(33px);
+          backdrop-filter: blur(33px);
+}
+
+#about {
+  display: flex;
+  margin-top: 110px;
+  margin-bottom: 50px;
+}
+#about .container .rome {
+  margin-top: 110px !important;
+}
+#about .container .rome .rome-container .girl img {
+  width: 20px;
+  height: auto;
+}
+#about .container .rome .rome-container h2 {
+  font-weight: 900 !important;
+}
+#about .container .rome .rome-container h2 span {
+  font-size: 20px !important;
+}
+
+.textbody {
+  padding: 0 90px;
+}
+
+.pics {
+  padding-left: 20px !important;
+  position: relative;
+  left: 48px;
+  top: 80px;
+}
+
+.textt {
+  padding: 0 30px;
+}
+
+#feature {
+  background-image: url("../images/Frame 4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#services .service {
+  margin-top: 150px;
+  margin-left: 150px;
+}
+#services img {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  top: 55px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-bottom-left-radius: 50px;
+}
+
+#courses {
+  margin-top: 70px;
+  background-color: #F9FCFE;
+}
+#courses .park,
+#courses .icon {
+  padding: 50px;
+}
+#courses .park,
+#courses .central,
+#courses .badder {
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+#courses .icon {
+  position: relative;
+  left: 0px;
+}
+#courses .card img {
+  width: 200px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-items: center;
+}
+#courses .cards {
+  font-size: 12px;
+}
+#courses .eclipse > img:hover {
+  opacity: 0.6;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+#courses .bt {
+  border-top: 1px solid #038C33 !important;
+  border-bottom: 3px solid #038C33 !important;
+  color: #038C33 !important;
+  font-weight: bold;
+}
+#courses .bt:hover {
+  border-top: 1px solid #1F6036 !important;
+  border-bottom: 3px solid #1F6036 !important;
+  color: #1F6036 !important;
+  font-weight: bold;
+}
+#courses .con {
+  width: 17%;
+  margin: auto;
+  margin-top: 33px;
+}
+
+#blog {
+  margin-bottom: 30px;
+}
+#blog .words {
+  text-align: center;
+}
+
+#testimonial {
+  background-image: url("../images/rectangle 82.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#testimonial .success {
+  padding-top: 50px !important;
+}
+#testimonial .conti {
+  width: 60%;
+  padding-top: 20px;
+}
+
+#instructors {
+  background-color: #E5E5E5;
+}
+#instructors .fin {
+  width: 60%;
+  padding: 90px 20px 0 0;
+}
+#instructors .pix1 {
+  padding: 30px;
+  background-image: url("../images/mask group (7).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 60vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 30px;
+  border-radius: 5px;
+  padding-top: 250px;
+  box-shadow: 0px -40px 80px 0px #038C33 inset;
+}
+#instructors .pix2 {
+  padding: 30px;
+  background-image: url("../images/mask group (8).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 60vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 30px;
+  border-radius: 5px;
+  padding-top: 220px;
+  box-shadow: 0px -40px 80px 0px #038C33 inset;
+}
+#instructors .pix3 {
+  padding: 30px;
+  background-image: url("../images/rectangle 89.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 60vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+  padding-top: 220px;
+  box-shadow: 0px -40px 80px 0px #038C33 inset;
+}
+#instructors .con {
+  width: 17%;
+  margin: auto;
+  margin-top: 33px;
+}
+
+#contact {
+  margin-top: 80px;
+}
+#contact .contact {
+  margin-bottom: 30px;
+}
+#contact textarea {
+  width: 100%;
+  height: 150px;
+  resize: vertical;
+}
+#contact .con {
+  margin-bottom: 50px;
+}
+
+#footer {
+  background-color: #003412;
+  height: 82vh;
+}
+#footer .foot {
+  padding-top: 65px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 100px;
+  margin-bottom: 10px;
+}
+#footer .foot .badge {
+  padding-bottom: 20px;
+}
+#footer .foot h4 {
+  padding-bottom: 15px;
+}
+#footer .foot h4 span {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+}
+#footer .foot .first,
+#footer .foot .second,
+#footer .foot .third,
+#footer .foot .fourth {
+  width: 90%;
+  padding-right: 60px;
+}
+#footer .foot .second,
+#footer .foot .third,
+#footer .foot .fourth {
+  padding-top: 40px;
+}
+#footer .copy i {
+  color: pink !important;
+}/*# sourceMappingURL=main.css.map */

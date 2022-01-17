@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+// variables
+$textcolor : #038C33;
+$link: #010202;
+$primary_col: #00923F;
+$nav_col : #003412;
+$pcolor : #1F6036;
+
+
+
+// Utilities
+.top-a,
+.top-nav {
+    color: $nav_col !important;
+    font-size: 14px !important;
+}
+
+@mixin button {
+    background: $textcolor !important;
+    padding: 10px 25px !important;
+    color: #fff;
+}
+
+.btnn {
+    @include button;
+}
+
+.btnn:hover {
+    color: #fff !important;
+    background-color: $pcolor !important;
+}
+
+.bad {
+    color: $textcolor !important;
+}
+
+.badder {
+    color: $pcolor !important;
+}
+
+.buts {
+    background-color: #ADD9BD !important;
+    margin-left: 10px;
+    padding: 5px 10px !important;
+    color: $textcolor;
+}
+
